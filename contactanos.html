@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Prueba/css/css-menu.css">
+    <link rel="shorcut icon" type="image/x-icon" href="./IMG/Icono.png" />
+    <title>contactanos</title>
+</head>
+<body>
+    <nav class="menu">
+        <section class="menu__container">
+            <img class="img" src="IMG/logounach.png" alt="Logo">
+
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="../Prueba/index.html" class="menu__link">Inicio</a>
+                </li>
+    
+                <li class="menu__item">
+                    <a href="/Prueba/Juego.html" class="menu__link">Probar juego</a>
+    
+                <li class="menu__item  menu__item--show">
+                    <a class="menu__link">Información<img src="./assets/arrow.svg" class="menu__arrow"></a>
+    
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="/Prueba/nosotros.html" class="menu__link menu__link--inside">Nosotros</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="/Prueba/contactanos.html" class="menu__link menu__link--inside">Contactos</a>
+                        </li>
+                    </ul>
+                </li>
+    
+                <li class="menu__item">
+                    <a href="./index.html" class="menu__link">Registrarse</a>
+                </li>
+    
+            </ul>
+
+            <div class="menu__hamburguer">
+                <img src="./assets/menu.svg" class="menu__img">
+            </div>
+        </section>
+    </nav>
+
+    <div class="contenedor">
+        <h1 class="titulo">Nos encontramos en:</h1>
+        <p class="texto">
+            Estamos ubicados en Universidad Autónoma de Chiapas, Blvd. Belisario Domínguez 
+            Km. 1081, Sin Número,
+             Terán, 29050 Tuxtla Gutiérrez, Chis., México.
+             En la Facultad de Contaduría y Administración, Campus I.
+             Licenciatura en Sistemas computacionales.
+        </p>
+    </div>
+
+    <section class="centrado">
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+            var setting = {"height":260,"width":456,"zoom":14,"queryString":"Universidad Autónoma de Chiapas, Blvd. Belisario Domínguez Km. 1081, Sin Número, Terán, 29050 Tuxtla Gutiérrez, Chis., México","place_id":"ChIJi4JK24EPjoUR55PCWRqYu18","satellite":false,"centerCoord":[16.753569154780514,-93.15589864999997],"cid":"0x5fbb981a59c293e7","lang":"es","cityUrl":"/mexico/tuxtla-gutierrez-2052","cityAnchorText":"Mapa de Tuxtla Gutiérrez, Chiapas, México","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"915770"};
+            var d = document;
+            var s = d.createElement('script');
+            s.src = 'https://1map.com/js/script-for-user.js?embed_id=915770';
+            s.async = true;
+            s.onload = function (e) {
+              window.OneMap.initMap(setting)
+            };
+            var to = d.getElementsByTagName('script')[0];
+            to.parentNode.insertBefore(s, to);
+          })();</script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Ambientales-Derechos reservados 2023.</p>
+    </footer>
+
+    <script src="Js/app.js"></script>
+</body>
+</html>
